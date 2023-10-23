@@ -7,6 +7,11 @@ The raw data structure unfortunately is not very friendly in regards of data ana
 to make data analysis easier.
 
 ## Problem of the original rawdata structure
-
-
+![](/dummyfiles/rawoutput_postrun.png?raw=true "Example of the data output from the software")
+The raw data output has the filename/sample written above the actual data and every individual sample is put below each sample.
+Therefore, reading in the data is impossible as either the samplename is missing or all columns are considered as 1 as there are no header columns.
+To check the file by yourself, you can check the "dummyfiles" folder, where it is stored.
 ## Structure the data is changed into
+![](/dummyfiles/output_tidied.png?raw=true "Example of the data output from the postrunner function")
+Now, the datafile has the sample written in the first column named "sample". If the samplename convention is well done,
+treatment and further metainformation columns can be produced based on the sample name.

@@ -1,0 +1,32 @@
+[Header]
+Data File Name,Z:\imaginarypath\leer1.qgd
+Output Date,12.10.2022
+Output Time,15:35:38
+
+[MS Quantitative Results]
+# of IDs,70
+ID#,Name,Type,ISTD Group#,Mass,Ret.Time,Start Time,End Time,A/H,Area,Height,Conc.,Mode,Peak#,Std.Ret.Time,Calibration Curve,3rd,2nd,1st,Constant,Ref.Ion Area,Ref.Ion Height,Ref.Ion Set Ratio,Ref.Ion Ratio,Recovery,SI,Ref.Ion1 m/z,Ref.Ion1 Area,Ref.Ion1 Height,Ref.Ion1 Set Ratio,Ref.Ion1 Ratio,Ref.Ion2 m/z,Ref.Ion2 Area,Ref.Ion2 Height,Ref.Ion2 Set Ratio,Ref.Ion2 Ratio,Ref.Ion3 m/z,Ref.Ion3 Area,Ref.Ion3 Height,Ref.Ion3 Set Ratio,Ref.Ion3 Ratio,Ref.Ion4 m/z,Ref.Ion4 Area,Ref.Ion4 Height,Ref.Ion4 Set Ratio,Ref.Ion4 Ratio,Ref.Ion5 m/z,Ref.Ion5 Area,Ref.Ion5 Height,Ref.Ion5 Set Ratio,Ref.Ion5 Ratio,Ret. Index,S/N,Unit,Description,Threshold,Tailing,Ref.Ion1 S/N,Ref.Ion2 S/N,Ref.Ion3 S/N,Ref.Ion4 S/N,Ref.Ion5 S/N,ISTD Name,ISTD Area,ISTD Height,ISTD Ret.Time,Noise
+1,compound1,Target,0,TIC,Not Identified,,,,,,,,,12.597,Default,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,compound2,Target,0,127.00,Not Identified,,,,,,,,,10.300,Default,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.85,,,,,,,,,,,,,,36.667,
+
+[Header]
+Data File Name,Z:\imaginarypath\blank1.qgd
+Output Date,12.10.2022
+Output Time,15:35:44
+
+[MS Quantitative Results]
+# of IDs,70
+ID#,Name,Type,ISTD Group#,Mass,Ret.Time,Start Time,End Time,A/H,Area,Height,Conc.,Mode,Peak#,Std.Ret.Time,Calibration Curve,3rd,2nd,1st,Constant,Ref.Ion Area,Ref.Ion Height,Ref.Ion Set Ratio,Ref.Ion Ratio,Recovery,SI,Ref.Ion1 m/z,Ref.Ion1 Area,Ref.Ion1 Height,Ref.Ion1 Set Ratio,Ref.Ion1 Ratio,Ref.Ion2 m/z,Ref.Ion2 Area,Ref.Ion2 Height,Ref.Ion2 Set Ratio,Ref.Ion2 Ratio,Ref.Ion3 m/z,Ref.Ion3 Area,Ref.Ion3 Height,Ref.Ion3 Set Ratio,Ref.Ion3 Ratio,Ref.Ion4 m/z,Ref.Ion4 Area,Ref.Ion4 Height,Ref.Ion4 Set Ratio,Ref.Ion4 Ratio,Ref.Ion5 m/z,Ref.Ion5 Area,Ref.Ion5 Height,Ref.Ion5 Set Ratio,Ref.Ion5 Ratio,Ret. Index,S/N,Unit,Description,Threshold,Tailing,Ref.Ion1 S/N,Ref.Ion2 S/N,Ref.Ion3 S/N,Ref.Ion4 S/N,Ref.Ion5 S/N,ISTD Name,ISTD Area,ISTD Height,ISTD Ret.Time,Noise
+1,compound1,Target,0,TIC,Not Identified,,,,,,,,,12.597,Default,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.19,,,,,,,,,,,,,,3298.333,
+2,compound2,Target,0,127.00,Not Identified,,,,,,,,,10.300,Default,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.51,,,,,,,,,,,,,,148.800,
+
+[Header]
+Data File Name,Z:\imaginarypath\identifier_replicate_treatment_date.qgd
+Output Date,12.10.2022
+Output Time,15:35:50
+
+[MS Quantitative Results]
+# of IDs,70
+ID#,Name,Type,ISTD Group#,Mass,Ret.Time,Start Time,End Time,A/H,Area,Height,Conc.,Mode,Peak#,Std.Ret.Time,Calibration Curve,3rd,2nd,1st,Constant,Ref.Ion Area,Ref.Ion Height,Ref.Ion Set Ratio,Ref.Ion Ratio,Recovery,SI,Ref.Ion1 m/z,Ref.Ion1 Area,Ref.Ion1 Height,Ref.Ion1 Set Ratio,Ref.Ion1 Ratio,Ref.Ion2 m/z,Ref.Ion2 Area,Ref.Ion2 Height,Ref.Ion2 Set Ratio,Ref.Ion2 Ratio,Ref.Ion3 m/z,Ref.Ion3 Area,Ref.Ion3 Height,Ref.Ion3 Set Ratio,Ref.Ion3 Ratio,Ref.Ion4 m/z,Ref.Ion4 Area,Ref.Ion4 Height,Ref.Ion4 Set Ratio,Ref.Ion4 Ratio,Ref.Ion5 m/z,Ref.Ion5 Area,Ref.Ion5 Height,Ref.Ion5 Set Ratio,Ref.Ion5 Ratio,Ret. Index,S/N,Unit,Description,Threshold,Tailing,Ref.Ion1 S/N,Ref.Ion2 S/N,Ref.Ion3 S/N,Ref.Ion4 S/N,Ref.Ion5 S/N,ISTD Name,ISTD Area,ISTD Height,ISTD Ret.Time,Noise
+1,compound1,Target,0,TIC,Not Identified,,,,,,,,,12.597,Default,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1.71,,,,,,,,,,,,,,18007.727,
+2,compound2,Target,0,127.00,Not Identified,,,,,,,,,10.300,Default,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2.20,,,,,,,,,,,,,,93.500,
