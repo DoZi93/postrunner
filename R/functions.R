@@ -91,7 +91,7 @@ vectorize_samplenames <- function(filepath, allsamples_names, rownumber_tidydata
 #'
 #' @examples
 
-restructure <- function(tidy.data, samplenames){
+restrc <- function(tidy.data, samplenames){
   tidy.data %>%
     mutate(sample = samplenames, .before = id_number)
 }
@@ -130,7 +130,7 @@ restructure <- function(filepath, delimiter = ",", write = FALSE){
   samplenames_all <- get_samplenames(data)
   vector_allsamples_names <- vectorize_samplenames(filepath, samplenames_all, nrow(data.tidy))
 
-  data.restructued <- restructure(tidy.data, samplenames)
+  data.restructued <- restrc(tidy.data, samplenames)
 
   if(write == TRUE){write_csv(data.restructured, paste0(filepath_wo_extensions, "_tidied.csv"))}
 
