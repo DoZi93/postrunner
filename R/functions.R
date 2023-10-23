@@ -94,6 +94,8 @@ vectorize_samplenames <- function(filepath, allsamples_names, rownumber_tidydata
 restrc <- function(tidy.data, samplenames){
   tidy.data %>%
     mutate(sample = samplenames, .before = id_number)
+
+  return(tidy.data)
 }
 
 
@@ -101,9 +103,9 @@ restrc <- function(tidy.data, samplenames){
 #'
 #' Adds the name of sample as column next to the data columns
 #'
-#' Functions which gets the name of the sample from the row in the rawdata
+#' Function which gets the name of the sample from the row in the rawdata
 #' and then adds it as the column "sample" as first column, allowing for
-#' further data manipulation, e.g. pivoting, selection, filtering, etc.
+#' further data manipulation, e.g. pivoting, selection, filtering, etc
 #'
 #' @param filepath the path to the raw data file
 #' @param delimiter the delimiter of the raw data file to read in. Standard is set to comma.
@@ -112,7 +114,7 @@ restrc <- function(tidy.data, samplenames){
 #' If TRUE, the file is written into the path of the raw data file with
 #' the extension "_tidied.csv".
 #'
-#' @return
+#' @returns the restructured data frame.
 #' @export
 #' @import janitor
 #' @import readr
@@ -130,7 +132,7 @@ restructure <- function(filepath, delimiter = ",", write = FALSE){
   samplenames_all <- get_samplenames(data)
   vector_allsamples_names <- vectorize_samplenames(filepath, samplenames_all, nrow(data.tidy))
 
-  data.restructued <- restrc(tidy.data, samplenames)
+  data.restructured <- restrc(tidy.data, samplenames)
 
   if(write == TRUE){write_csv(data.restructured, paste0(filepath_wo_extensions, "_tidied.csv"))}
 
