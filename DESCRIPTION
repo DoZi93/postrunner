@@ -1,12 +1,11 @@
 Package: postrunner
-Title: What the Package Does (One Line, Title Case)
+Title: Restructres gcms postrun rawdata to add samplename
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Dominik", "Ziaja", , "dominik.ziaja@uni-bielefeld.de", role = c("aut", "cre"))
+Description: Gets the name of the sample from the row in the rawdata and then adds it as the column "sample" as first column, allowing for further data manipulation, e.g. pivoting, selection, filtering, etc.
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Imports: janitor, dplyr, readr, stringr
