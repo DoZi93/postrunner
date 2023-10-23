@@ -105,9 +105,12 @@ restructure <- function(tidy.data, samplenames){
 #' and then adds it as the column "sample" as first column, allowing for
 #' further data manipulation, e.g. pivoting, selection, filtering, etc.
 #'
-#' @param filepath
-#' @param delimiter
-#' @param write
+#' @param filepath the path to the raw data file
+#' @param delimiter the delimiter of the raw data file to read in. Standard is set to comma.
+#' @param write Whether the function should write the restructured datafile.
+#' Value must be either TRUE or FALSE, false is standard.
+#' If TRUE, the file is written into the path of the raw data file with
+#' the extension "_tidied.csv".
 #'
 #' @return
 #' @export
